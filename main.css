@@ -1,0 +1,113 @@
+/* Estilo para intensificar a cor de hover dos botões */
+.btn:hover {
+    filter: brightness(85%);
+  }
+
+  .nav-link:hover {
+    color: #da7a21;
+  }
+  
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+
+body {
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+
+    
+  }
+
+  .carousel img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .brand-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .australia {
+    color: #e8ebff;
+    font-family: 'Merriweather', serif;;
+  }
+  
+  .union {
+    color: #da7a21;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+  }
+  
+
+.card-title {
+    color: #050505;
+}
+
+#contato, #p1 {
+    color: aliceblue;
+}
+
+#p1 {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+
+  .rating {
+    color: #FFD700;
+  }
+
+#p2 {
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+}
+
+
+  .testimonial {
+    text-align: center;
+  }
+
+  .rating {
+    color: #FFD700;
+  }
+
+  .testimonial-card {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color:#da7a21
+  }
+
+  .servicos-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .servicos-btn {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .servicos-text {
+    font-size: 0.9rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 575.98px) {
+    .card-body {
+      min-height: 180px;
+    }
+  }
+  
